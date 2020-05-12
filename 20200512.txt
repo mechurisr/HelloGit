@@ -1,0 +1,47 @@
+REVIEW
+-자료형 소수점은 double을 사용(float보다 편리)
+-식별자 규칙은 eclipse가 알아서 안내해주나 관례는 꼭 숙지(첫글자 대문자, 카멜표기법, 상수는 대문자)
+-								_Data Type_
+			Primitive											Reference
+Character	(char)		(Numeric)			Boolean					(Class			Interface			Array)
+	(Integer(byte, short, int, long)	Floating(float, double))
+
+-byte (-128~127)
+-short (+-30000..)
+-int (+-200,000,000...)=>주로 사용
+-문자는 char, 문자열은 String, True/False boolean
+-Escape Character(특수문자?) ex)\t, \r, \n(하나의 문자로 인식)
+
+---------------------------------------------------------------------------------------------------------------------
+:20120512
+-형변환 (type)operend (형변환은 안하는게 안전)
+-작은타입에서 큰타입의 형 변환은 생략
+-괄호 밖으로 나갈 때에 방향키 대신 Enter
+-circuit은 범위 안에서 반대편으로 돌아가는 것
+-cut은 소수점이 잘리는 것
+-//Ctrl + Shift + f => 자동으로 줄 맞춰주기
+=비트연산자 '&' ex) 4&5
+	        00000100
+	        00000101
+-비트연산자 '^' 같으면 0, 다르면1 ex) 4^5
+			         =1
+-논리연산자(중요) boolean
+ T && T => T (둘다 True일 때 True)
+ T && F => F
+ F && T => F
+ F && F => F
+
+T || T => T
+T || F => T
+F || T => T (앞이 True면 무조건 True)
+F || F => F
+
+Java-2
+-제어문 if else에 항상 중괄호{} 넣기
+-Switch문
+ Case는 유일해야함
+ 수식은 long자료형은 올 수 없음
+ break 빠져나감(없으면 아래로 흘러감)
+ default 는 마지막에 있지만 어디에 있어도 상관없음 (else와 같은 역할)
+ 처리문장은 하나만 있어도 됨
+-실수형은 switch case로 바꿀 수 없기 때문에 switch case는 잘 쓰지 않음(읽을 줄만 알면 됨)
