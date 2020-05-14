@@ -1,0 +1,14 @@
+"반복문"
+- for(초기값 ;조건;증감) {
+반복문장들 ;
+}
+-조건이 false이면 for문의 수행을 끝내고,
+ 조건이 true이면 반복블록을 수행
+ 초기값, 조건은 여러개 or 생략 가능
+ 무한루프->break로 빠져 나감
+-Debug
+ Line breakpoint 설정 -> Debug 버튼 -> Step into(F5)로 Debug 진행 -> Terminate(Ctrl+F2)로 종료
+-printf(print format) System.out.printf(문장,변수) %d 숫자, %n개행
+-break 는 switch, 반복문에서 빠져나감
+ Label 후 outter를 통해 해당 레이블 빠져나갈 수 있음.
+-continue문을 만나면 조건 평가 후 true 일 경우에만 반복 수행
