@@ -1,0 +1,12 @@
+Java 3
+-Primitive는 변수에 따라 할당되는 것이 아니라 각각의 값이 할당된다.
+-reference는 c를 a에 참조할 경우 c의 값을 바꾸면 a의 값도 바뀐다 (primitive의 할당과는 다른 개념)
+-배열은 모든 자료형을 저장 가능. (collection은 reference type만 가능)
+-선언과 할당 (두가지 방법)
+ 1) int[]a = new int[size];
+     선언        생성
+ 2) int[]a = {값1. 값2, 값3,...};
+    선언 생성      할당
+
+-단축키 1) Ctrl+Alt+방향키 아래: 줄 아래로 복사
+          2) Alt+방향키 위, 아래: 줄 위아래로 옮김
