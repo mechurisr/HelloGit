@@ -1,0 +1,22 @@
+멤버 변수 초기값
+-boolean => false
+-char => \u0000
+-byte =>0
+-short =>0
+-int =>0
+-long =>0
+-float =>0.0f
+-double =>0.0
+클래스 =>null
+
+-instance메서드에서는 static, instance 변수 사용 및 호출 가능
+-static 메서드에서는 instance 변수 사용 및 호출 불가능(static 변수 가능)
+-static 메서드에서 instance 변수와 instance 메서드를 호출하려면 객체를 생성해서 사용해야 한다.
+
+-final은 class, 변수, method에 붙일 수 있음
+ 마지막이라는 뜻(상속금지), overriding 될 수 없음
+
+-method 이름에 매개변수를 붙이는 것은 지양(ex: printInteger)
+-OOP(객체지향적) 사고방식 (ex: print(int i))
+
+-setter/getter 단축키 Alt+Shift+S->R-> select all
