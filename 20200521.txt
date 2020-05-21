@@ -1,0 +1,20 @@
+-인터페이스는 다수의 메소드를 오버라이딩 할 수 있다.
+
+hashCode() 메소드는 객체의 해시코드 값. 즉 유일한 값을 의미(내용이 같아도 고유의 코드가 다름)
+-Object 클래스의 equals() 메소드가 true이면 hasCode() 값도 같아야하고 false 이면 hashCode() 값도 달라야 한다고 정의됨
+-equals() 메소드를 overriding 할 때 hashCode()메소드도 같이 overriding 해줘야 함
+
+-alt+shift+s-r (게터-세터 생성)
+-alt+shift+s-h (해쉬코드-이퀄 생성)
+-alt+shift+s-s (toString 생성)
+
+-java.lang 패키지에는 각각의 primitive data type에 대응하는 각각의 wrapper class를 제공 (불변(immutable)객체로 구현)
+
+-자바 5.0(1.5Ver)부터 auto-boxing 과 auto-unboxing을 지원함
+ primitive data type를 wrapper class로 자동형 변환(반대는 unboxing)
+
+-Math 클래스는 final 이며 private이기 때문에 객체 생성 불가능
+
+-String 클래스는 불변하는 문자열(immutable)
+-문자열을 +로 추가하는 것은 영 좋지않은 생각임
+-가변문자라는 추가하는 문자가 따로 존재함 String.sql
