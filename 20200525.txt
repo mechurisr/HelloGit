@@ -1,0 +1,25 @@
+-Throwable은 두가지로 나뉨
+ Error 클래스는 하드웨어 문제로 개발자가 관리 불가
+ Exception 클래스의 하위클래스는 관리할 수 있음
+
+-Exception은 RuntimeException과 그 이외 Exception으로 나뉨
+ RuntimeException은 예외처리 안해도 되지만 이외 Exception은 CompileError 발생
+
+-메소드 내에서 예외 처리하기 위해 자바 언어는 try-catch-finally구문을 제공
+-finally블록은 선택적으로 사용됨(예외의 발생과 상관없이 무조건 수행)
+
+-일반메시지 출력은 System.out
+ 에러메시지 출력은 System.err
+
+-throws는 발생된 예외를 호출한 메소드에게 넘겨주는 방법
+-catch를 해줘야 함.
+-예외처리를 하지 않으면 jvm에서 제어하게 되며 이후 문장이 출력되지 않음
+
+-read() : 1바이트씩 스트림 데이터를 읽어온다.
+-read(byte b[]): 읽은 수만큼 반환한다.
+
+int readByte = 0;
+while((readByte = fis.read()) != -1) {
+	fos.write(readByte);
+
+
