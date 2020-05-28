@@ -1,0 +1,28 @@
+시험문제 (총 15문제)
+
+1. 식별자(객관식)
+ 다음중 식별자로 쓸 수 없는 것은?(식별자 규칙)
+2. 자료형(정수형,실수형,논리형,문자)
+3. if문 switch case로 바꾸는 코드
+ "년월일은 무슨 계절입니다."<-
+4. for문으로 되어있는 구구단을 while문으로 바꾸기
+5. class의 구성요소 (멤버,메소드, 변수)
+6. 접근한정자(4개: public, private, default, protected)
+   상속
+7. 생성자
+   class 2개(부모, 자식) compile error가 나는 이유?
+8. 배열을 출력하는 문제 (주관식)
+   (배열 선언->출력)
+9. final 3가지 (멤버, 변수, 메소드)
+10. 클래스에서 인터페이스
+11. object클래스에서 equals와 같이 오버라이딩 하는 메소드
+    = HashCode
+12. String 문자열을  Double로 바꾸기
+  ex) Integer.parseInt
+13. String 문자열 비교는 equals이다
+     StringBuffer에 문자열을 비교하면 결과? (false)
+14. Collection 중 ArrayList (함정있음)
+    선언, 생성, 입력, 출력
+15. Polymorphism(다형성) 정의
+     오버로딩, 오버라이딩 (+작성규칙)
+     ex) 메소드 이름은 같아야...

@@ -22,4 +22,3 @@ int readByte = 0;
 while((readByte = fis.read()) != -1) {
 	fos.write(readByte);
 
-
