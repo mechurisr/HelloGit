@@ -1,0 +1,9 @@
+MARIADB
+-primary key : not null(값이 있어야 한다) and unique(유일한 값)
+ 모든 행을 구분할 수 있다
+
+-varchar와 char의 차이점
+ 고정문자열일 경우 char
+ 가변문자열일 경우 varchar (나중에 바뀔수도 있기 때문에 보통 varchar를 사용)
+-칼럼명을 명시하는 것이 중요(나중에 칼럼을 추가할 수 있기 때문)
+-*(테이블 모두 표시)는 왠만하면 쓰지 말것
