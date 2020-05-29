@@ -1,0 +1,40 @@
+_MariaDB_
+
+ALIAS
+-칼럼에 별칭 붙히기(일시적으로 바꿔서 표시하는 것)
+ AS와 큰따옴표"는 생략가능
+ 칼럼이 길기 때문에 줄여서 부르는 것
+
+연산자
+-null 인 값을 한쪽에서 연산하면 값이 null이 됨
+-비교 연산자(=, !=, >, <, >=, <=)
+-논리 연산자(AND, OR, NOT)
+ A AND B (조건A 이면서 조건B)
+ A OR B (조건A 이거나 조건B)
+-OR 연산은 풀스캔을 하기 때문에 AND 조건으로 바꿀 수 있는지 확인하자
+ IN 연산자 또한 안쓰는 것이 좋음(OR과 비슷)	
+-SELECT를 쓰면 ORDER BY로 꼭 정렬하자
+-=으로 NULL 비교는 불가능 (IS NULL로 비교)
+-concat은 칼럼과 문자열을 비교하는 연결 연산자
+
+함수(FUNCTION)
+-메서드와 유사한 개념
+-CHR(아스키코드)
+-CONCAT(문자열 연결)
+-LOWER/UPPER(소문자/대문자)
+-LPAD/RPAD(왼쪽/오른쪽에 채움)
+-LENGTH(문자열 길이)-바이트 수를 리턴(한글은 글자 당 3바이트)
+-문자함수
+-FORMAT 함수의 반환값은 문자열
+(파란색은 숫자, 초록색은 문자, 밤색은 날짜)
+-IFNULL(칼럼명, 값): 해당 칼럼이 NULL일 경우 정해진 값을 반환
+-ROUND(반올림), TRUNCATE(자름)
+-날짜함수
+ CURDATE(년월일), CURTIME(시분초), TIME(합침)
+ ADDDATE, SUBDATE
+
+-Math(Java)
+ 1. final 클래스
+ 2. 생성자 접근한정자 private => 객체를 생성할 수 없음
+    예) Math.m = new Math(); ->(X)
+3. 모든 메서드는 static 메서드로 구성
