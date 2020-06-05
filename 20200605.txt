@@ -1,0 +1,24 @@
+-HTML(HyperText Markup Language)은 웹페이지를 기술하기 위한 마크업 언어.
+-어떤 컨텐츠를 담을 것인가가 목표
+-Listing에는 ul li를 사용하는 것이 표과적
+-SEO (검색엔진최적화)
+-마크업은 디자인이 중요하지 않음(디자인은 css담당)
+-시멘트웹 = 잘 짜여진 구조의 웹.
+ 메타데이터를 부여하여, 웹페이지를 '의미'와 '관련성'을 가지는 구성하는 것
+
+-HTML 기본문법
+ 시작 태그(start tag)와 종료태그(end tag) 그래고 태그 사이에 위치한 content로 구성
+-빈요소(Empty Element): content를 가질 수 없으며 어트리뷰트만을 가질 수 있음
+-어트리뷰트는 요소의 성질, 특징
+
+-meta요소는 description, keyword, author, 기타 메타데이터 정의에 사용
+-Heading 태그는 제목을 나타낼 때 사용 h1~h6
+
+<p> - 단락
+&nbsp; - 탭
+<br> - 개행
+<pre> - 있는 그대로 표시하지만 <p>를 주로 사용한다.
+<hr> - 수평줄을 삽입
+<q> 짦은 인용구
+<blockquote> 긴 인용구(쌍따옴표 엄슴)
+
