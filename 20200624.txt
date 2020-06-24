@@ -1,0 +1,7 @@
+Pandas
+1.Pandas 자료구조
+-1차원: 데이터 프레임 Data Frame
+-2차원: 시리즈 Series
+(-3차원: 판넬 Panel도 존재) 
+
+NaN(Not a Number): Missing data 표기 
