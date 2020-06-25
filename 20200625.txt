@@ -1,0 +1,34 @@
+axis=0 가로줄
+axis=1 세로줄
+
+변수 이름 = pd.DataFrame([~~~,~~~,~~~~,~~~~,] index=[~~~~,~~~~,~~~~,~~~~~] )
+
+stock_price_DF_withindex = pd.DataFrame(
+    [10000, 10300, 9900, 10500, 11000],
+    index = ["2020-03-01","2020-03-02","2020-03-03","2020-03-04","2020-03-5"])
+    stock_price_DF_withindex.rename(columns = {"0" : "시가"}, inplace=True)
+    
+    stock_price_DF_withindex["종가"]=[11000,12000,10000,13000,12000]
+    stock_price_DF_withindex["고가"]=[13000,15000,15000,18000,17000]
+    stock_price_DF_withindex["저가"]=[3000,5000,5000,8000,7000]
+
+    stock_price_DF_withindex
+
+
+stock_price_DF_withindex.loc[가로, 세로]
+ex) stock_price_DF_withindex.loc["2020-03-01",["시가","종가"]]
+
+fill_values(fill_value=)
+
+lamba: 최대값-최소값
+
+stock_price_DF_withindex.apply(lambda x:x.max() - x.min(), axis=0)
+
+df[새로운 컬럼 이름] = 0
+for i in range(0, len(데이터프레임)):
+	i번째 줄에서...앞의 4개의 컬럼의 값을 가지고 와야 함
+	(가로 i번째 줄, 세로는 시가/종가/저가/고가) --> iloc[i, ~~~]
+
+	위의 4개의 값 중에서 최고값 찾기 : max()
+	위의 4개의 값 중에서 최저값 찾기 : min()
+	가로 i번째 줄의 4개 값 중에서 최고값 - 최저값
